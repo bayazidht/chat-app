@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061351191285",
+    "project_id": "bayazidht-chat-app",
+    "storage_bucket": "bayazidht-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061351191285:android:6561e4c0f9ae0f269dcbbc",
+        "android_client_info": {
+          "package_name": "com.bayazidht.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3DjySiUNpJ3laMtydTEO3nLEOfu1uwi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_height="wrap_content">
+    
+    <com.makeramen.roundedimageview.RoundedImageView
+        app:riv_corner_radius="30dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"
+        android:id="@+id/imageProfile"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/textMessage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:contentDescription="@string/profile" />
+
+    <TextView
+        android:textColor="@color/white"
+        app:layout_constraintWidth_max="wrap"
+        android:layout_marginStart="4dp"
+        android:padding="12dp"
+        android:textSize="13sp"
+        android:background="@drawable/background_received_message"
+        app:layout_constraintStart_toEndOf="@id/imageProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.75"
+        android:id="@+id/textMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textDateTime"
+        android:layout_marginTop="4dp"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@id/textMessage"
+        app:layout_constraintTop_toBottomOf="@id/textMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
